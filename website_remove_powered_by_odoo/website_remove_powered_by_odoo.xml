@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="footer_modificado_copy" inherit_id="website.layout" name="Default" active="True">
+            <xpath expr="//div[@class='o_footer_copyright o_colored_level o_cc']" position="replace">
+                <div class="copyright">
+                    <div class="row container-footer">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center ">
+                            <div class="tiny-footer">
+                                <p>Copyright &amp;copy;
+                                    <span t-field="res_company.name" itemprop="name">Company name</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+<!--                    <div class="o_brand_promotion container-footer">-->
+<!--                        Referencia-->
+<!--                        <a target="_blank" class="badge text-bg-light"-->
+<!--                           href="http://www.odoo.com?utm_source=db&amp;utm_medium=website">-->
+<!--                            <img alt="Odoo" src="/code_backend_theme/static/src/img/odoo_logo_tiny.png" width="62"-->
+<!--                                 height="20" style="width: auto; height: 1em; vertical-align: baseline;"-->
+<!--                                 loading="lazy"/>-->
+<!--                        </a>-->
+<!--                        - -->
+<!--                        Crea una-->
+<!--                        <a target="_blank" href="http://www.odoo.com/app/website?utm_source=db&amp;utm_medium=website">-->
+<!--                            sitio web gratuito-->
+<!--                        </a>-->
+
+<!--                    </div>-->
+                </div>
+            </xpath>
+
+
+        </template>
+
+    </data>
+</odoo>
